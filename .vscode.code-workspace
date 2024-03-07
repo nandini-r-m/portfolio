@@ -1,13 +1,7 @@
 {
-	"folders": [
-		{
-			"path": "../../../../IGDTUW/portfolio proj2/.vscode"
-		},
-		{
-			"path": "../../../../IGDTUW/portfolio proj2/assets"
-		},
-		{
-			"path": "../../../../IGDTUW/portfolio proj2/bootstrap-5.3.0-dist"
-		}
-	]
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }

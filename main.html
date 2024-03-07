@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry: Nandini</title>
+    <!-- Remove unnecessary Bootstrap 3.4.1 CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre&display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Move custom styles to the head -->
+    <link rel="contact" type="react" href="contact.js">
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: inline;
+        }
+        a:link{
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited{
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:active{
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse"> <!-- Use the correct class name for the navbar -->
+        <div class="container-xl">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Nandini R. Maharana</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <!-- Add correct links and content to the navbar -->
+                <li class="active"><a href="#about">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="image">
+                <img src="nandini-pic.jpg" alt="Nandini's Picture" class="img-fluid" width = "300" height="300">
+            </div>
+        </div>
+            <div class="col-sm-8 about-content">
+                <section id="about">
+                    <h1>About</h1>
+                    <p>In addition to being a writer, Nandini Rabindra Maharana (she/her) is an engineering student studying computer science in Delhi, India. She was born in 2004. Her work has previously appeared in Aurora Journal, Ice Lolly Review, etc. She loves reading as well as outlining novels in her idle hours. She appreciates songs from ENHYPEN, hardcore pop, and POV playlists. She loves cold coffee and nature walks. Even though the summer is her favorite season, she writes the least about it.</p>
+                </section>
+            </div>
+        </div>
+
+
+
+    <footer>
+        <p>&copy; Made with love by Nandini. All rights reserved.</p>
+        <!-- Add any required social buttons here -->
+    </footer>
+
+    <!-- Add correct script sources -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-D6y1Rvo1EXsrb9P3N+2/x2h5L6ZHAHdP2j/qE4gYk5CS/2SHHQ/KnRbZNrsM4vJ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha384-SNpi6OFa9St1QAt4AzZ3rT12gV1gt8wbiz0nLK9jT5BS/xO0rJZ6O5hOHpwymvX1" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Smooth scrolling to the "About" section when clicking on the "About" link
+            $('a[href="#about"]').click(function(event) {
+                event.preventDefault();
+                var targetOffset = $('#about').offset().top;
+                $('html, body').animate({ scrollTop: targetOffset }, 800);
+            });
+        });
+    </script>
+</body>
+</html>

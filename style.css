@@ -1,0 +1,121 @@
+.navbar-nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: medium;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+.navbar-nav li{
+    margin-right: 15px;
+}
+.navbar-nav li:last-child{
+    margin-right: 0;
+}
+.navbar{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: palevioletred;
+}
+header{
+    background-color: palevioletred;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: lavender;
+}
+#about{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: x-large;
+    display: inline-flexbox;
+    overflow: hidden;
+}
+.image{
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.image img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+header{
+    background-color: lavenderblush;
+}
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.row {
+    align-items: center;
+}
+
+.about-content {
+    padding-left: 30px;
+}
+
+@media (max-width: 767px) {
+    .about-content {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+}
+
+#portfolio, #contact {
+    padding-top: 30px;
+}
+
+#portfolio::before {
+    content: "";
+    display: block;
+    height: 50px;
+    margin-top: -50px;
+    visibility: hidden;
+}
+
+#contact::before {
+    content: "";
+    display: block;
+    height: 30px;
+    margin-top: -30px;
+    visibility: hidden;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+a:link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+}
+#portfolio{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    line-height: normal;
+    display: inline-flexbox;
+}
+#contact{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    display: flexbox;
+#myform{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    align-items: center;
+}
+}
+#experience{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    display: flexbox;
+    align-items: center;
+    width: 100%;
+}
